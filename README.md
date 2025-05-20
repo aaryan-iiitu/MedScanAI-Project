@@ -19,24 +19,38 @@
 1. **Clone the Repository**
 
 git clone https://github.com/aaryan-iiitu/MedScanAI-Project.git
+
+
 cd MedScanAI-Project/MedScanAI
+
 
 2. **Set Up a Virtual Environment**
 
 pip install pipenv
+
+
 pipenv shell
+
+
 pipenv install
+
+
 
 
 3. **Set API Keys**
 
    
 Create a `.env` file in the `MedScanAI` directory with the following content:
+
+
 GROQ_API_KEY=your_groq_api_key
+
+
 ELEVENLABS_API_KEY=your_elevenlabs_api_key
 
 
 ## Usage
+
 Run the Gradio app:
 
 python gradio_app.py
